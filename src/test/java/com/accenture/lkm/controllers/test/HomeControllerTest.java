@@ -31,7 +31,7 @@ public class HomeControllerTest {
 	public void testHomeTitle() {
 		HomeController hc = new HomeController();
 		ModelAndView mv = hc.home();
-		assertEquals("Title Missing!", "Accenture" , mv.getModelMap().get("title"));
+		assertEquals("Title Missing!", "Accenture pipline test" , mv.getModelMap().get("title"));
 	}
 
 	
